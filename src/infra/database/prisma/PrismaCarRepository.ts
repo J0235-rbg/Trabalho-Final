@@ -1,7 +1,7 @@
 import { injectable } from "inversify";
 import * as Prisma from "@prisma/client";
-import { ICarRepository } from "../../../domain/repositories/ICarRepository";
-import { Car } from "../../../domain/entities/Car";
+import type { ICarRepository } from "../../../domain/repositories/ICarRepository.js";
+import { Car } from "../../../domain/entities/Car.js";
 import { PrismaClient } from "@prisma/client/extension";
 
 @injectable()

@@ -1,4 +1,4 @@
-import { Car } from "../entities/Car";
+import { Car } from "../entities/Car.js"
 
 export interface ICarRepository {
     findById(id: string): Promise <Car | null>

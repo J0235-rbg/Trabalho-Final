@@ -4,7 +4,8 @@
   "description": "Trabalho final de engenharia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest watch"
   },
   "author": "João",
   "license": "ISC",
@@ -15,7 +16,11 @@
     "prisma": "^7.3.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
   },
   "type": "module"
 }
